@@ -35,9 +35,9 @@ export default function TodoLayout({ todo, updateTodo, setTodos }) {
     );
   };
   return (
-    <div className="flex flex-row justify-between items-center px-4 py-2 rounded-md   text-white">
+    <div className="flex flex-row justify-between items-center px-4 py-2.5 rounded-md   text-white">
       <div className="flex flex-row items-center  px-4 rounded-md  text-white">
-        <h3 className={todo.completed ? "w-72 md:w-96 ml-4 line-through text-green-500 overflow-hidden" : "w-72 md:w-96 ml-4 overflow-x-auto overflow-y-hidden"}>
+        <h3 className={todo.completed ? "w-72 md:w-[420px] ml-4 line-through text-green-500  overflow-hidden" : "w-72 md:w-[420px] ml-4 overflow-x-auto  overflow-y-hidden"}>
           {todo.todo}
         </h3>
         <button

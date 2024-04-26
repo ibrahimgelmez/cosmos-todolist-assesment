@@ -47,7 +47,7 @@ export default function AddTodoDialog({setTodos}) {
 
   return (
     <React.Fragment>
-      <Button variant="contained" color="secondary" onClick={handleClickOpen}>
+      <Button variant="contained" color="secondary"  onClick={handleClickOpen}>
         + Add New Todo
       </Button>
       <Dialog

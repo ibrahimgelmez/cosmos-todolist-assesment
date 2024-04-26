@@ -23,7 +23,7 @@ export default function Todos() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-24 bg-[#432667] rounded-md px-4 py-8">
+    <div className="flex flex-col items-center mt-24 bg-[#432667] rounded-md px-24 py-8">
       <AddTodoDialog setTodos={setTodos} />
       <div className="flex flex-col gap-4 items-center w-full mt-8">
         {todos &&
