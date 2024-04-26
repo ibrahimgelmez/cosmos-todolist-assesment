@@ -3,7 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-cosmos-todolist-assesment.vercel.app
+ [Vercel project link](https://cosmos-todolist-assesment.vercel.app) 
+
 
 
 
